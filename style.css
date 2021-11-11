@@ -1,0 +1,61 @@
+.btn-ok{
+    border: 1px solid;
+    display: flex;
+    place-content: center;
+}
+
+.con-title{
+    border: 1px solid;
+    display: grid;
+    place-content: center;
+}
+
+#cat_result{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+}
+
+.btn-ok img{
+    padding: 10px;
+}
+
+.ch3, .changBtnColor{
+    border: 1px solid;
+}
+
+.RPS_imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.RPS_imgs img:hover{    
+    box-shadow: rgba(1, 1, 255, 0.4) 0px 7px 29px 0px;    
+}
+
+.retry_btn{
+    padding: 30px 0 0 0;
+    display: grid;
+    width: 45%;
+    margin: 0 auto;
+}
+
+#changBtnColor{
+    display: flex;
+    padding: 19px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.userSide, .ComSide{
+    height: 350px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.userSide img, .ComSide img{
+    height: 35%;
+    margin: 20px;
+}
